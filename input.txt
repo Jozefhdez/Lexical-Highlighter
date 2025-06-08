@@ -1,0 +1,68 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+// Comentario de una línea
+
+/*
+Comentario
+de múltiples
+líneas
+*/
+
+class Persona {
+private:
+    string nombre;
+    int edad;
+
+public:
+    Persona(string n, int e) : nombre(n), edad(e) {}
+
+    void saludar() const {
+        cout << "Hola, soy " << nombre << " y tengo " << edad << " años." << endl;
+    }
+};
+
+int suma(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    // Variables
+    int x = 10;
+    double y = 3.14;
+    bool activo = true;
+    string mensaje = "¡Hola Mundo!";
+
+    cout << mensaje << endl;
+
+    // Estructuras de control
+    if (x > 5) {
+        cout << "x es mayor que 5" << endl;
+    } else {
+        cout << "x es 5 o menor" << endl;
+    }
+            
+    // Bucle for
+    for (int i = 0; i < 3; ++i) {
+        cout << "Iteración: " << i << endl;
+    }
+
+    // Uso de vector
+    vector<int> numeros = {1, 2, 3, 4, 5};
+    for (int n : numeros) {
+        cout << "Número: " << n << endl;
+    }
+
+    // Llamada a función
+    int resultado = suma(7, 8);
+    cout << "Suma: " << resultado << endl;
+
+    // Uso de clase
+    Persona p("Jozef", 22);
+    p.saludar();
+
+    return 0;
+}

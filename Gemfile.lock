@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.3)
+    parser (3.3.8.0)
+      ast (~> 2.4.1)
+      racc
+    racc (1.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  parser (~> 3.3)
+
+BUNDLED WITH
+   2.4.10
