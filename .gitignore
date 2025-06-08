@@ -1,0 +1,16 @@
+# Archivos temporales y de sistema
+*.swp
+.DS_Store
+
+# Archivos de salida
+out.html
+
+# Archivos de entorno Ruby
+*.gem
+.bundle/
+vendor/
+log/
+tmp/
+
+# Archivos de configuración de VS Code
+.vscode/
