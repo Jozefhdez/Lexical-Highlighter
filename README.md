@@ -78,4 +78,4 @@ int main() {
 
 **Output (`out.html`):**
 
-*Screenshot of highlighted code* <!-- Add a screenshot if desired -->
+![Screenshot of highlighted code](images/output.png)
