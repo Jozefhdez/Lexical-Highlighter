@@ -1,4 +1,4 @@
-# LexicalHighlighter
+# Lexical Highlighter
 
 LexicalHighlighter is a simple Ruby script that performs lexical highlighting for C++ source code. It reads a C++ code file, applies syntax highlighting using regular expressions, and outputs an HTML file with the highlighted code.
 
